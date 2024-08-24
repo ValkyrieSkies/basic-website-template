@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Charset declaration -->
+	<meta charset="UTF-8">
+	
+	<!-- Standard meta information -->
+	<title>Home - Your Website</title>
+	<meta name="description" content="Your page description here.">
+	<meta name="author" content="Your alias here.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Open Graph meta information for embed cards on social media -->
+	<meta property="og:title" content="Home - Your Website">
+	<meta property="og:description" content="Your page description here.">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en">
+	<meta property="og:url" content="http://yoururlhere.com">
+	<meta property="og:image" content="http://yoururlhere.com/img/embedpic.png">
+
+	<!-- Favicon and CSS -->
+	<link rel="icon" type="image/x-icon" href="/img/favicon.png">
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<!-- The header is the topmost section of the site containing the website logo and social media buttons -->
+	<div class="header">
+		<div class="headleft">
+			<a href="/"><img src="/img/banner.png" alt="Website Logo"></a>
+		</div>
+		
+		<div class="headright">
+			<table>
+			<tr>
+				<td><a href="https://yourbuttonhere.com/" target="_blank" rel="noopener noreferrer"><img src="/img/ico1.png" Alt="Description of button" title="Preview text here"></a></td>
+				<td><a href="https://yourbuttonhere.com/" target="_blank" rel="noopener noreferrer"><img src="/img/ico2.png" Alt="Description of button" title="Preview text here"></a></td>				
+			</tr><tr>
+				<td><a href="https://yourbuttonhere.com/" target="_blank" rel="noopener noreferrer"><img src="/img/ico3.png" Alt="Description of button" title="Preview text here"></a></td>
+				<td><a href="https://yourbuttonhere.com/" target="_blank" rel="noopener noreferrer"><img src="/img/ico4.png" Alt="Description of button" title="Preview text here"></a></td>
+			</tr>	
+			</table>
+		</div>
+	</div>
+	
+	<!-- The buttonbar is the bar between the header and main body which houses static links to be displayed on every page -->
+	<div class="buttonbar">
+		<center>
+		<ul class="button">
+			<li><a href="/">Home</a></li>
+			<li><a href="/about.html">About</a></li>
+			<li><a href="/misc/">Example</a></li>
+		</ul>
+		</center>
+	</div>
+	
+	<!-- Main contains the actual meat of the page which will actually differ between most pages -->
+	<main>
+		<div class="main">
+			<div class="primarycontent">
+				<!-- Primary Content is where the primary content of the page goes -->
+				<div class="maincol">
+					<h3>Home</h3><hr>
+					<p>Lorem ipsum dolorosa et ceterino.</p><br>
+					
+					<h3>News Feed</h3><hr>
+					<ul>
+						<li>24/08/24 - Your news post here.</li>
+						<li>23/08/24 - Your news post here.</li>
+					</ul>
+					
+				<!-- This divider will only show up when the mobile display parameters on the CSS are triggered -->
+				<span class="mobiledivider"><hr></span></div>
+				
+				<!-- Infocol is used to contain secondary information for a page such as the update feed on index pages and information & sources on articles -->
+				<!-- On desktop this is a sidebar on the right-hand side of the page, on mobile it shifts to beneath the main content instead -->
+				<div class="infocol">
+					<div class="infobox">
+						<h3>Recent Updates</h3><hr>
+						<ul>
+							<li>17/08/24 - <a href="/misc/example.html">Example</a> in <a href="/misc/">Misc</a></li>
+						</ul>
+					</div>
+					<br>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<!-- The footer caps off the end of the page, featuring some space for small text and badges. -->
+	<div class="footer">
+		<p>Your footer text here.</p>
+	</div>
+
+</body>
